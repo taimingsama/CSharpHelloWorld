@@ -5,7 +5,7 @@ public class MainProgram
     public static void Main(string[] args)
     {
         Console.WriteLine("Hello, World!");
-        
+
         var student = new StudentInfo(1, "汰铭");
 
         Console.WriteLine(student);
@@ -17,5 +17,10 @@ public class MainProgram
         var teacher = new TeacherInfo(1, "枫野");
 
         Console.WriteLine(teacher);
+    }
+
+    public static void PrintHelloWorld()
+    {
+        Console.WriteLine("Hello, World!");
     }
 }
