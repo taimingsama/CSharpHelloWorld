@@ -25,5 +25,9 @@ public class MainProgram
         var dog1 = new DogInfo(1, "旺财");
 
         Console.WriteLine(dog1);
+
+        var dog2 = new DogInfo(2, "大黄");
+
+        Console.WriteLine(dog2);
     }
 }
