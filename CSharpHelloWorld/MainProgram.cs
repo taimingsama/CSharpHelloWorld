@@ -21,5 +21,9 @@ public class MainProgram
         var teacher2 = new TeacherInfo(2, "小亮");
 
         Console.WriteLine(teacher2);
+
+        var dog1 = new DogInfo(1, "旺财");
+
+        Console.WriteLine(dog1);
     }
 }
