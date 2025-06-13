@@ -13,5 +13,9 @@ public class MainProgram
         var student2 = new StudentInfo(2, "小明");
 
         Console.WriteLine(student2);
+
+        var teacher = new TeacherInfo(1, "枫野");
+
+        Console.WriteLine(teacher);
     }
 }
